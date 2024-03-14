@@ -31,6 +31,7 @@ class Triangle{
 
 class Triangle_demo{
     
+    @SuppressWarnings("unused")
     public static void main(String x[])
     {
         try{
