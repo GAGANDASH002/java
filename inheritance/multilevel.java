@@ -1,5 +1,4 @@
-
-
+package java.inheritance;
 
 class A{
     int a;
