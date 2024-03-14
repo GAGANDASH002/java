@@ -1,4 +1,4 @@
-package java;
+package java.exceptions;
 
 class NoTriangleException extends Exception{
     public NoTriangleException()

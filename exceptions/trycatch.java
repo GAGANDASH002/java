@@ -1,4 +1,4 @@
-package java;
+package java.exceptions;
 
 class Demo{
     public static void main(String x[])
