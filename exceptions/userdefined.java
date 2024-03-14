@@ -12,6 +12,7 @@ class NoTriangleException extends Exception{
     }
 }
 class Triangle{
+    
      int a,b,c;
 
      Triangle(int p,int q,int r) throws NoTriangleException{
