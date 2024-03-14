@@ -37,7 +37,7 @@ class C extends A{
     }
 }
 
-class demo{
+class Demo{
     public static void main(String[] args) {
         A a = new A (1);
         System.out.println("objects of class A");
