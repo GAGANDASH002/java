@@ -52,8 +52,10 @@ class DeMo{
         PersonalLoan b2= new Bank2(2200,4);
         PersonalLoan p;
         p=b1;
+        System.out.println("SI for bank 1 is");
         p.find_Simple_Interrest();
         p=b2;
+        System.out.println("SI for bank 2 is");
         p.find_Simple_Interrest();
     }
 }
