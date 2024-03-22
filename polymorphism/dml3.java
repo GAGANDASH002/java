@@ -37,7 +37,7 @@ class CUBE implements Two_D{
     public void findarea(){
         float area=6*side*side;
         System.out.println("volume of cube is"+area);
-    }
+    } 
     
 }
 
