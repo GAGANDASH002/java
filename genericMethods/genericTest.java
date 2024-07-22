@@ -1,4 +1,5 @@
 class Demo{
+    // Declaring generic method
     <T> void genericPrint(T t){
         System.out.println(t);
     }
@@ -8,4 +9,4 @@ class Demo{
         obj.genericPrint("Hello World"); // Calling method with string argument
         obj.genericPrint(2.005432); // Calling method with float argument
     }
-}
+}  
