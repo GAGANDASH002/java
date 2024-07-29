@@ -1,4 +1,3 @@
-import java.util.*;
 
 public class generiClass <T>{
 
@@ -10,5 +9,16 @@ public class generiClass <T>{
 
     public void printData(){
         System.out.println(x);
+    }
+}
+
+class generiClassTest{
+    public static void main(String[] args) {
+        generiClass<String> a = new generiClass<String>("Java");
+        a.printData();
+        generiClass<Integer> b = new generiClass<Integer>(2);
+        b.printData();
+        generiClass<Double> c = new generiClass<Double>(3.14);
+        c.printData();
     }
 }
